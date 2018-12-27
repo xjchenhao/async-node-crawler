@@ -1,21 +1,21 @@
 {
-  "name": "node-crawler",
+  "name": "async-crawler",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "author": "xjchenhao",
   "scripts": {
     "test": "mocha -t 10000 ./test/*.test.js "
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xjchenhao/super-node-crawler.git"
+    "url": "git+https://github.com/xjchenhao/async-node-crawler.git"
   },
-  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xjchenhao/super-node-crawler/issues"
+    "url": "https://github.com/xjchenhao/async-node-crawler/issues"
   },
-  "homepage": "https://github.com/xjchenhao/super-node-crawler#readme",
+  "homepage": "https://github.com/xjchenhao/async-node-crawler#readme",
   "dependencies": {
     "crawler": "^1.2.0"
   },
