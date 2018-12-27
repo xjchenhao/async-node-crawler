@@ -1,5 +1,5 @@
 {
-  "name": "co-node-crawler",
+  "name": "node-crawler",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,16 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xjchenhao/co-node-crawler.git"
+    "url": "git+https://github.com/xjchenhao/super-node-crawler.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xjchenhao/co-node-crawler/issues"
+    "url": "https://github.com/xjchenhao/super-node-crawler/issues"
   },
-  "homepage": "https://github.com/xjchenhao/co-node-crawler#readme",
+  "homepage": "https://github.com/xjchenhao/super-node-crawler#readme",
   "dependencies": {
     "crawler": "^1.2.0"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
   },
   "devDependencies": {
     "mocha": "^5.2.0",

@@ -12,8 +12,8 @@ class myCrawler extends Crawler {
             try {
                 this.direct({
                     ...opts,
-                    callback: (error, res, done) => {
-                        resolve(opts.callback(error, res, done));
+                    callback: (error, res) => {
+                        resolve(opts.callback(error, res));
                     }
                 });
             } catch (err) {
